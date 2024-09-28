@@ -22,20 +22,20 @@
 
 .intro {
   font-size: 2.25rem;
-  color: #ebd3f8;
+  color: #9067c6;
   line-height: 1.5;
 }
 
 .name {
-  background-color: #fff7fc;
+  background-color: #f7ece1;
   font-size: 3rem;
-  color: #2e073f;
+  color: #242038;
   padding: 0 1rem;
 }
 
 p {
   font-size: 1.5rem;
-  color: #ebd3f8;
+  color: #9067c6;
   line-height: 1.5;
 }
 

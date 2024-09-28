@@ -12,8 +12,8 @@ export const Home = () => {
       <Experience />
       <Canvas camera={{ position: [0, 0, 20], fov: 30 }}>
         <color attach="background" args={["black"]} />
-        <pointLight intensity={500} position={[0, 0, 10]} />
-        <pointLight intensity={500} position={[6, 0, 10]} />
+        <pointLight intensity={200} position={[0, 0, 10]} />
+        <pointLight intensity={200} position={[6, 0, 10]} />
         <OrbitControls />
         <Stars />
         <Moon />

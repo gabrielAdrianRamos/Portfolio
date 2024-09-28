@@ -24,9 +24,6 @@ export const Header = () => {
         </div>
         <nav className={showMenu ? "show-nav" : "hide-nav"}>
           <ul onClick={hideMenu}>
-            <li className="close">
-              <RiCloseLine size={20} color="#ebd3f8" onClick={hideMenu} />
-            </li>
             <li>
               <NavLink to={"/about"}>About</NavLink>
             </li>
@@ -39,7 +36,7 @@ export const Header = () => {
           </ul>
         </nav>
         <div className="menu-icon" onClick={toggleMenu}>
-          <ImMenu size={28} />
+          {showMenu ? <RiCloseLine size={30} /> : <ImMenu size={28} />}
         </div>
       </div>
     </header>
