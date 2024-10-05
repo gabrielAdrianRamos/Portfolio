@@ -30,6 +30,14 @@
   margin-left: 5rem;
 }
 
+.paragraph p {
+  color: #242038;
+}
+
+.tech {
+  margin-left: -2rem;
+}
+
 .tech p {
   margin: 2rem;
 }
@@ -45,6 +53,7 @@
 
 @media screen and (max-width: 768px) {
   .about-container {
+    margin-top: 5rem;
     padding: 2rem;
   }
 
