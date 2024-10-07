@@ -9,7 +9,14 @@ export const About = () => {
           className="avatar"
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ ease: "linear", delay: 0.3 }}
+          transition={{
+            ease: "linear",
+            delay: 0.3,
+            duration: 0.5,
+            type: "spring",
+            bounce: 0.3,
+            damping: 10,
+          }}
           src="/assets/id.jpg"
         />
         <div className="statement">
@@ -17,14 +24,26 @@ export const About = () => {
             <motion.p
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ ease: "linear", delay: 0.5 }}
+              transition={{
+                ease: "linear",
+                delay: 0.3,
+                type: "spring",
+                bounce: 0.3,
+                damping: 10,
+              }}
             >
               Hi! I recently shifted careers and completed certificates in{" "}
-              <a href="https://www.udemy.com/certificate/UC-4bd1e65f-1ebb-4061-b4da-2e9139d1fad9/">
+              <a
+                className="certificate"
+                href="https://www.udemy.com/certificate/UC-4bd1e65f-1ebb-4061-b4da-2e9139d1fad9/"
+              >
                 <b>Web Development</b>
               </a>{" "}
               and{" "}
-              <a href="https://www.coursera.org/account/accomplishments/specialization/N8083VFOBJ13">
+              <a
+                className="certificate"
+                href="https://www.coursera.org/account/accomplishments/specialization/N8083VFOBJ13"
+              >
                 <b>UI Design</b>
               </a>
               . I am passionate about creating user-friendly websites and
@@ -35,7 +54,13 @@ export const About = () => {
               <motion.p
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ ease: "linear", delay: 0.7 }}
+                transition={{
+                  ease: "linear",
+                  delay: 0.7,
+                  type: "spring",
+                  bounce: 0.3,
+                  damping: 10,
+                }}
               >
                 Tech Stacks:
               </motion.p>
@@ -45,42 +70,78 @@ export const About = () => {
                   src="/assets/html.png"
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ ease: "linear", delay: 0.9 }}
+                  transition={{
+                    ease: "linear",
+                    delay: 0.9,
+                    type: "spring",
+                    bounce: 0.3,
+                    damping: 10,
+                  }}
                 />
                 <motion.img
                   className="tech-image"
                   src="/assets/js.png"
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ ease: "linear", delay: 1.1 }}
+                  transition={{
+                    ease: "linear",
+                    delay: 0.92,
+                    type: "spring",
+                    bounce: 0.3,
+                    damping: 10,
+                  }}
                 />
                 <motion.img
                   className="tech-image"
                   src="/assets/nodeJs.png"
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ ease: "linear", delay: 1.2 }}
+                  transition={{
+                    ease: "linear",
+                    delay: 0.94,
+                    type: "spring",
+                    bounce: 0.3,
+                    damping: 10,
+                  }}
                 />
                 <motion.img
                   className="tech-image"
                   src="/assets/react.png"
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ ease: "linear", delay: 1.3 }}
+                  transition={{
+                    ease: "linear",
+                    delay: 0.96,
+                    type: "spring",
+                    bounce: 0.3,
+                    damping: 10,
+                  }}
                 />
                 <motion.img
                   className="tech-image"
                   src="/assets/github.png"
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ ease: "linear", delay: 1.4 }}
+                  transition={{
+                    ease: "linear",
+                    delay: 0.98,
+                    type: "spring",
+                    bounce: 0.3,
+                    damping: 10,
+                  }}
                 />
                 <motion.img
                   className="tech-image"
                   src="/assets/blender.png"
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
-                  transition={{ ease: "linear", delay: 1.5 }}
+                  transition={{
+                    ease: "linear",
+                    delay: 1,
+                    type: "spring",
+                    bounce: 0.3,
+                    damping: 10,
+                  }}
                 />
               </div>
             </div>
