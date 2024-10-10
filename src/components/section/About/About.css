@@ -1,7 +1,7 @@
 .about {
   height: 100vh;
   width: 100vw;
-  background-color: #fff8dc;
+  background-color: #faf9f6;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -24,7 +24,7 @@
   width: 30%;
   border-radius: 10%;
   float: left;
-  filter: drop-shadow(10px 14px 4px #ffe990);
+  filter: drop-shadow(5px 5px 5px #e8e3d5);
 }
 
 .paragraph {
@@ -55,7 +55,7 @@
 }
 .tech-image {
   width: 15%;
-  filter: drop-shadow(10px 14px 4px #ffe990);
+  filter: drop-shadow(5px 5px 5px #e8e3d5);
 }
 
 @media screen and (max-width: 768px) {
