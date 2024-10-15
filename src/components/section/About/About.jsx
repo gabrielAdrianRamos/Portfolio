@@ -7,8 +7,8 @@ export const About = () => {
       <div className="about-container">
         <motion.img
           className="avatar"
-          initial={{ opacity: 0, x: -70 }}
-          animate={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -70 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{
             ease: "easeOut",
             delay: 0.9,
