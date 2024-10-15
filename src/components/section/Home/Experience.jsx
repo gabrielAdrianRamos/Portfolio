@@ -12,11 +12,12 @@ const Experience = () => {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
-            ease: "linear",
+            ease: "easeOut",
             delay: 1,
             type: "spring",
             bounce: 0.3,
             damping: 10,
+            duration: 1,
           }}
         >
           Hi I'm
@@ -27,11 +28,12 @@ const Experience = () => {
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
-            ease: "linear",
+            ease: "easeOut",
             delay: 1.3,
             type: "spring",
             bounce: 0.3,
             damping: 10,
+            duration: 1,
           }}
         >
           A Junior Web Developer
@@ -43,11 +45,12 @@ const Experience = () => {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
-              ease: "linear",
+              ease: "easeOut",
               delay: 1.4,
               type: "spring",
               bounce: 0.3,
               damping: 10,
+              duration: 1,
             }}
           >
             <FaGithub size={30} />
@@ -58,11 +61,12 @@ const Experience = () => {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
-              ease: "linear",
+              ease: "easeOut",
               delay: 1.5,
               type: "spring",
               bounce: 0.3,
               damping: 10,
+              duration: 1,
             }}
           >
             <FaLinkedin size={30} />
@@ -73,11 +77,12 @@ const Experience = () => {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
-              ease: "linear",
+              ease: "easeOut",
               delay: 1.6,
               type: "spring",
               bounce: 0.3,
               damping: 10,
+              duration: 1,
             }}
           >
             <SiTeepublic size={30} />
@@ -88,11 +93,12 @@ const Experience = () => {
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
-              ease: "linear",
+              ease: "easeOut",
               delay: 1.7,
               type: "spring",
               bounce: 0.3,
               damping: 10,
+              duration: 1,
             }}
           >
             <SiThreadless size={40} />

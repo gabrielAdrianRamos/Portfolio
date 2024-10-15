@@ -7,15 +7,12 @@ export const About = () => {
       <div className="about-container">
         <motion.img
           className="avatar"
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, x: -70 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{
-            ease: "linear",
-            delay: 0.3,
-            duration: 0.5,
-            type: "spring",
-            bounce: 0.3,
-            damping: 10,
+            ease: "easeOut",
+            delay: 0.9,
+            duration: 0.8,
           }}
           src="/assets/id.jpg"
         />
@@ -25,11 +22,9 @@ export const About = () => {
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
-                ease: "linear",
+                ease: "easeOut",
                 delay: 0.3,
-                type: "spring",
-                bounce: 0.3,
-                damping: 10,
+                duration: 0.5,
               }}
             >
               Hi! I recently shifted careers and completed certificates in{" "}
@@ -55,11 +50,9 @@ export const About = () => {
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{
-                  ease: "linear",
-                  delay: 0.7,
-                  type: "spring",
-                  bounce: 0.3,
-                  damping: 10,
+                  ease: "easeOut",
+                  delay: 0.5,
+                  duration: 0.5,
                 }}
               >
                 Tech Stacks:
@@ -71,11 +64,9 @@ export const About = () => {
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
-                    ease: "linear",
-                    delay: 0.9,
-                    type: "spring",
-                    bounce: 0.3,
-                    damping: 10,
+                    ease: "easeOut",
+                    delay: 0.6,
+                    duration: 0.5,
                   }}
                 />
                 <motion.img
@@ -84,11 +75,9 @@ export const About = () => {
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
-                    ease: "linear",
-                    delay: 0.92,
-                    type: "spring",
-                    bounce: 0.3,
-                    damping: 10,
+                    ease: "easeOut",
+                    delay: 0.62,
+                    duration: 0.5,
                   }}
                 />
                 <motion.img
@@ -97,11 +86,9 @@ export const About = () => {
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
-                    ease: "linear",
-                    delay: 0.94,
-                    type: "spring",
-                    bounce: 0.3,
-                    damping: 10,
+                    ease: "easeOut",
+                    delay: 0.64,
+                    duration: 0.5,
                   }}
                 />
                 <motion.img
@@ -110,11 +97,9 @@ export const About = () => {
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
-                    ease: "linear",
-                    delay: 0.96,
-                    type: "spring",
-                    bounce: 0.3,
-                    damping: 10,
+                    ease: "easeOut",
+                    delay: 0.66,
+                    duration: 0.5,
                   }}
                 />
                 <motion.img
@@ -123,11 +108,9 @@ export const About = () => {
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
-                    ease: "linear",
-                    delay: 0.98,
-                    type: "spring",
-                    bounce: 0.3,
-                    damping: 10,
+                    ease: "easeOut",
+                    delay: 0.68,
+                    duration: 0.5,
                   }}
                 />
                 <motion.img
@@ -136,11 +119,9 @@ export const About = () => {
                   initial={{ y: 100, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
-                    ease: "linear",
-                    delay: 1,
-                    type: "spring",
-                    bounce: 0.3,
-                    damping: 10,
+                    ease: "easeOut",
+                    delay: 0.7,
+                    duration: 0.5,
                   }}
                 />
               </div>

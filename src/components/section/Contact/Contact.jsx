@@ -1,3 +1,9 @@
+import "./Contact.css";
+
 export const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <div className="contact">
+      <div className="contact-container"></div>
+    </div>
+  );
 };
