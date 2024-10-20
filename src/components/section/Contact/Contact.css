@@ -15,11 +15,6 @@
   padding: 7rem;
 }
 
-.icons {
-  display: flex;
-  flex-direction: row;
-}
-
-.links {
-  margin-right: 1rem;
+.text-connect {
+  font-size: 4rem;
 }
