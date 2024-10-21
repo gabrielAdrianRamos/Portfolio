@@ -1,14 +1,14 @@
 .contact {
   background-color: #faf9f6;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
 .contact-container {
-  margin-top: 4rem;
-  margin-left: 5rem;
-  padding: 7rem;
+  padding: 12rem;
 }
 
 .text-connect {
@@ -48,15 +48,11 @@
 
 @media screen and (max-width: 768px) {
   .contact-container {
-    margin-top: 7rem;
-    margin-left: 1.5rem;
-    width: auto;
-    height: auto;
-    padding: 0;
+    padding: 1.5rem;
   }
 
   .text-connect {
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-size: 1.7rem;
     color: #242038;
   }

@@ -54,7 +54,7 @@ const Experience = () => {
               duration: 1,
             }}
           >
-            <BiSolidDownload size={25} /> Download CV
+            <BiSolidDownload size={20} /> Download CV
           </motion.button>
         </a>
       </div>
