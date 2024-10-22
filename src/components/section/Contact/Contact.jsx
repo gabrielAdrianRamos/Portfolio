@@ -8,12 +8,12 @@ export const Contact = () => {
       <div className="contact-container">
         <motion.h1
           className="text-connect"
-          initial={{ opacity: 0, y: -70 }}
+          initial={{ opacity: 0, y: -15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
             ease: "easeOut",
             delay: 0.3,
-            duration: 0.5,
+            duration: 0.4,
           }}
         >
           Shoot Me a Message
@@ -25,22 +25,22 @@ export const Contact = () => {
                 className="icon-contact"
                 src={image.imageSource}
                 alt="icon"
-                initial={{ y: 100, opacity: 0 }}
+                initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{
                   ease: "easeOut",
                   delay: 0.5,
-                  duration: 0.5,
+                  duration: 0.4,
                 }}
               />
               <motion.div
                 className="text-container"
-                initial={{ y: 100, opacity: 0 }}
+                initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{
                   ease: "easeOut",
                   delay: 0.6,
-                  duration: 0.5,
+                  duration: 0.4,
                 }}
               >
                 <p className="placeholder">{image.placeholder}</p>

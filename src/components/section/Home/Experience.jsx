@@ -15,7 +15,7 @@ const Experience = () => {
             delay: 1,
             type: "spring",
             bounce: 0.3,
-            damping: 10,
+            damping: 18,
             duration: 1,
           }}
         >
@@ -31,7 +31,7 @@ const Experience = () => {
             delay: 1.3,
             type: "spring",
             bounce: 0.3,
-            damping: 10,
+            damping: 18,
             duration: 1,
           }}
         >
@@ -50,7 +50,7 @@ const Experience = () => {
               delay: 1.5,
               type: "spring",
               bounce: 0.3,
-              damping: 10,
+              damping: 18,
               duration: 1,
             }}
           >

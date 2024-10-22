@@ -7,19 +7,19 @@ export const About = () => {
       <div className="about-container">
         <motion.img
           className="avatar"
-          initial={{ opacity: 0, y: -70 }}
+          initial={{ opacity: 0, y: -15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{
             ease: "easeOut",
             delay: 0.9,
-            duration: 0.8,
+            duration: 0.5,
           }}
           src="/assets/id.jpg"
         />
         <div className="statement">
           <div className="paragraph">
             <motion.p
-              initial={{ y: 100, opacity: 0 }}
+              initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{
                 ease: "easeOut",
@@ -47,7 +47,7 @@ export const About = () => {
             </motion.p>
             <div className="tech">
               <motion.p
-                initial={{ y: 100, opacity: 0 }}
+                initial={{ y: 30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{
                   ease: "easeOut",
@@ -61,7 +61,7 @@ export const About = () => {
                 <motion.img
                   className="tech-image"
                   src="/assets/html.png"
-                  initial={{ y: 100, opacity: 0 }}
+                  initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
                     ease: "easeOut",
@@ -72,7 +72,7 @@ export const About = () => {
                 <motion.img
                   className="tech-image"
                   src="/assets/js.png"
-                  initial={{ y: 100, opacity: 0 }}
+                  initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
                     ease: "easeOut",
@@ -83,7 +83,7 @@ export const About = () => {
                 <motion.img
                   className="tech-image"
                   src="/assets/nodeJs.png"
-                  initial={{ y: 100, opacity: 0 }}
+                  initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
                     ease: "easeOut",
@@ -94,7 +94,7 @@ export const About = () => {
                 <motion.img
                   className="tech-image"
                   src="/assets/react.png"
-                  initial={{ y: 100, opacity: 0 }}
+                  initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
                     ease: "easeOut",
@@ -105,7 +105,7 @@ export const About = () => {
                 <motion.img
                   className="tech-image"
                   src="/assets/github.png"
-                  initial={{ y: 100, opacity: 0 }}
+                  initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
                     ease: "easeOut",
@@ -116,7 +116,7 @@ export const About = () => {
                 <motion.img
                   className="tech-image"
                   src="/assets/blender.png"
-                  initial={{ y: 100, opacity: 0 }}
+                  initial={{ y: 30, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{
                     ease: "easeOut",
