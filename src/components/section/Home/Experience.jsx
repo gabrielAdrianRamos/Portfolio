@@ -37,26 +37,28 @@ const Experience = () => {
         >
           A Junior Web Developer
         </motion.p>
-        <a
-          href="/assets/ADRIAN GABRIEL N. RAMOS.docx"
-          download="AdrianGabrielRamos"
-        >
-          <motion.button
-            className="btn"
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{
-              ease: "easeOut",
-              delay: 1.5,
-              type: "spring",
-              bounce: 0.3,
-              damping: 18,
-              duration: 1,
-            }}
+        <div className="download">
+          <a
+            href="/assets/ADRIAN GABRIEL N. RAMOS.docx"
+            download="AdrianGabrielRamos"
           >
-            <BiSolidDownload size={20} /> Download CV
-          </motion.button>
-        </a>
+            <motion.button
+              className="btn"
+              initial={{ y: 100, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{
+                ease: "easeOut",
+                delay: 1.5,
+                type: "spring",
+                bounce: 0.3,
+                damping: 18,
+                duration: 1,
+              }}
+            >
+              <BiSolidDownload size={20} /> Download CV
+            </motion.button>
+          </a>
+        </div>
       </div>
     </section>
   );

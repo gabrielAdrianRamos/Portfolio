@@ -39,6 +39,10 @@ p {
   line-height: 1.5;
 }
 
+.download {
+  width: 13.5%;
+}
+
 .btn {
   background-color: #51307e;
   border: 1px solid #51307e;
@@ -71,6 +75,10 @@ p {
 
   p {
     font-size: 1rem;
+  }
+
+  .download {
+    width: 35%;
   }
 
   .btn {
