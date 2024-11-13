@@ -1,3 +1,5 @@
+import "./Projects.css";
+
 export const Projects = () => {
-  return <div>Projects</div>;
+  return <div className="project">Projects</div>;
 };

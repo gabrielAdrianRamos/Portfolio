@@ -33,8 +33,9 @@ export const Contact = () => {
                   duration: 0.4,
                 }}
               />
-              <motion.div
+              <motion.a
                 className="text-container"
+                href={image.href}
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{
@@ -45,7 +46,7 @@ export const Contact = () => {
               >
                 <p className="placeholder">{image.placeholder}</p>
                 <p className="details">{image.name}</p>
-              </motion.div>
+              </motion.a>
             </div>
           ))}
         </div>
