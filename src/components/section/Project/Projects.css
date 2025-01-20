@@ -7,3 +7,16 @@
   justify-content: center;
   align-content: center;
 }
+
+.project-container {
+  margin-top: 4rem;
+  width: 90%;
+  height: 85%;
+  padding: 7rem;
+}
+
+.project-name {
+  margin-top: -3rem;
+  font-size: 3rem;
+  color: #242038;
+}
