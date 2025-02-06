@@ -1,3 +1,7 @@
+body {
+  background-color: #000000;
+}
+
 .loader-container {
   margin-top: 20rem;
   display: flex;
@@ -13,11 +17,13 @@
 }
 
 .spinner > div {
-  background-color: rgba(0, 77, 255, 0.2);
+  background-color: rgba(0, 255, 0, 0.2);
   height: 100%;
   position: absolute;
   width: 100%;
-  border: 2px solid #004dff;
+  border: 3px solid #00ff00;
+  filter: drop-shadow(0 0 15px #00ff00);
+  /* box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px rgba(0, 255, 0, 0.8); */
 }
 
 .spinner div:nth-of-type(1) {

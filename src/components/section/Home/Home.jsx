@@ -9,12 +9,12 @@ import { AstronautTransformed } from "../../../models/Astronaut-transformed";
 export const Home = () => {
   return (
     <section className="main">
-      <Experience />
       <Canvas camera={{ position: [0, 0, 20], fov: 30 }}>
         <color attach="background" args={["black"]} />
         <pointLight intensity={200} position={[0, 0, 10]} />
         <pointLight intensity={200} position={[6, 0, 10]} />
         <OrbitControls />
+        <Experience />
         <Stars />
         <Moon />
         <Float
