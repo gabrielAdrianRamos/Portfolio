@@ -6,8 +6,11 @@ export const Projects = () => {
     <div className="project">
       <div className="project-container">
         <h1 className="project-name">Projects</h1>
-
-        <Card />
+        <div className="project-card">
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     </div>
   );

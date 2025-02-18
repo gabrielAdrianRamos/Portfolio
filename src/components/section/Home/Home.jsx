@@ -1,6 +1,6 @@
 import "./Home.css";
 import { Canvas } from "@react-three/fiber";
-import { Float, OrbitControls, Stars } from "@react-three/drei";
+import { Float, Stars } from "@react-three/drei";
 import { Moon } from "../../../models/Moon";
 import Experience from "./Experience";
 import { Astronaut } from "../../../models/Astronaut";
@@ -13,7 +13,6 @@ export const Home = () => {
         <color attach="background" args={["black"]} />
         <pointLight intensity={200} position={[0, 0, 10]} />
         <pointLight intensity={200} position={[6, 0, 10]} />
-        <OrbitControls />
         <Experience />
         <Stars />
         <Moon />

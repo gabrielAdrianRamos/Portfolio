@@ -49,3 +49,12 @@
 .card-button:active {
   background-color: #c4aee0;
 }
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    height: 90%;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 1.5rem;
+  }
+}
