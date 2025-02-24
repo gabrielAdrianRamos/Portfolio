@@ -1,18 +1,9 @@
 import React from "react";
-import "./card.css";
+import styles from "./card.module.scss";
 
-const Card = () => {
+const Card = ({ children, cardClass }) => {
   return (
-    <div className="card-container">
-      <div className="card-image-container">
-        <img src="\assets\blender.png" alt="title" className="card-image" />
-      </div>
-      <div className="card-text-container">
-        <p className="card-title">title</p>
-        <p className="description">description</p>
-        <button className="card-button">aaslsjsj</button>
-      </div>
-    </div>
+    <div className={`${styles.cardContainer} ${cardClass}`}>{children}</div>
   );
 };
 

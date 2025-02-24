@@ -29,6 +29,49 @@
   gap: 1rem;
 }
 
+.card-image-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-text-container {
+  margin-top: 1rem;
+}
+
+.card-title {
+  color: #51307e;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #242038;
+  margin-top: 0.1rem;
+  line-height: normal;
+}
+
+.card-button {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border: none;
+  font-size: 1rem;
+  background-color: #51307e;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card-button:active {
+  background-color: #c4aee0;
+}
+
 @media screen and (max-width: 768px) {
   .project {
     padding: 2rem;
