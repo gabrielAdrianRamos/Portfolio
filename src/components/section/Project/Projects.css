@@ -23,17 +23,21 @@
 
 .project-card {
   margin-top: 3rem;
+}
+
+.card-content {
+  width: 70%;
   display: flex;
   justify-content: center;
   align-content: center;
   gap: 1rem;
 }
 
-.card-image-container {
+/* .card-image-container {
   display: flex;
   justify-content: center;
   align-content: center;
-}
+} */
 
 .card-image {
   width: 100%;
@@ -80,6 +84,10 @@
   .project-container {
     margin-top: 6rem;
     padding: 2rem;
+  }
+
+  .card-content {
+    width: 100%;
   }
 
   .project-name {

@@ -1,8 +1,6 @@
 .cardContainer {
   background-color: #fbfcf8;
   border-radius: 10px;
-  height: 120%;
-  width: 25%;
   padding: 2rem;
   margin-top: 1.5rem;
   align-content: center;
@@ -11,8 +9,6 @@
 
 @media screen and (max-width: 768px) {
   .cardContainer {
-    height: 90%;
-    width: 100%;
     padding: 2rem;
     margin-top: 1.5rem;
   }
