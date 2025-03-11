@@ -25,9 +25,10 @@
   margin-top: 3rem;
 }
 
-.swiper {
-  width: 100%;
-  height: 100%;
+.project-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-image {
@@ -68,6 +69,10 @@
   background-color: #c4aee0;
 }
 
+.swiper-pagination-bullet-active {
+  background-color: #51307e !important;
+}
+
 @media screen and (max-width: 768px) {
   .project {
     padding: 2rem;
@@ -81,9 +86,5 @@
   .project-name {
     font-size: 1.7rem;
     color: #242038;
-  }
-
-  .swiper {
-    width: 100%;
   }
 }

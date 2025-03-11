@@ -12,14 +12,13 @@ export const Projects = () => {
         <h1 className="project-name">Projects</h1>
         <div className="project-card">
           <Swiper
-            slidesPerView={3}
-            spaceBetween={20}
+            slidesPerView={4}
+            spaceBetween={200}
             centeredSlides={true}
             pagination={{
               clickable: true,
             }}
             modules={[Pagination]}
-            className="mySwiper"
           >
             <SwiperSlide>
               <Card>
@@ -54,8 +53,8 @@ export const Projects = () => {
                 <div className="card-text-container">
                   <p className="card-title">Cloud Adventures</p>
                   <p className="description">
-                    Cloud Adventures is a simple 3D dodging game with an
-                    orthographic camera.
+                    Cloud Adventures is a simple 3D dodging game for Desktop
+                    with an orthographic camera.
                   </p>
                   <a href="https://cloud-adventures.vercel.app/">
                     <button className="card-button">View</button>
