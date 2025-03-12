@@ -6,19 +6,35 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 export const Projects = () => {
+  const adjustCard = () => {
+    let slidePerView;
+    let betweenSpace;
+
+    if (window.innerWidth < 768) {
+      slidePerView = 1;
+      betweenSpace = 50;
+    } else {
+      slidePerView = 3;
+      betweenSpace = 5;
+    }
+
+    return [slidePerView, betweenSpace];
+  };
+
+  const [perView, space] = adjustCard();
   return (
     <div className="project">
       <div className="project-container">
         <h1 className="project-name">Projects</h1>
         <div className="project-card">
           <Swiper
-            slidesPerView={4}
-            spaceBetween={200}
-            centeredSlides={true}
+            slidesPerView={perView}
+            spaceBetween={space}
             pagination={{
               clickable: true,
             }}
             modules={[Pagination]}
+            className="swipe-container"
           >
             <SwiperSlide>
               <Card>
@@ -77,6 +93,22 @@ export const Projects = () => {
                     A Simple website I created for a client.
                   </p>
                   <a href="https://housetop-samgyupsal.vercel.app/">
+                    <button className="card-button">View</button>
+                  </a>
+                </div>
+              </Card>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Card>
+                <div className="card-image-container">
+                  <img src="" alt="title" className="card-image" />
+                </div>
+                <div className="card-text-container">
+                  <p className="card-title">Illustrations</p>
+                  <p className="description">
+                    My collections of 2d illustrations.
+                  </p>
+                  <a href="">
                     <button className="card-button">View</button>
                   </a>
                 </div>

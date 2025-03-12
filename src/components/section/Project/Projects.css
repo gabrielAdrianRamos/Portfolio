@@ -22,7 +22,9 @@
 }
 
 .project-card {
-  margin-top: 3rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 75vw;
 }
 
 .project-card-container {
@@ -69,6 +71,10 @@
   background-color: #c4aee0;
 }
 
+.swiper-pagination-bullet {
+  background-color: #c4aee0 !important;
+}
+
 .swiper-pagination-bullet-active {
   background-color: #51307e !important;
 }
@@ -84,7 +90,15 @@
   }
 
   .project-name {
+    margin-left: -2rem;
     font-size: 1.7rem;
     color: #242038;
+  }
+  .project-card {
+    margin-top: 2rem;
+    margin-left: -2.5rem;
+  }
+  .swipe-container {
+    width: 100vw;
   }
 }
