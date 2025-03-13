@@ -1,0 +1,118 @@
+.project {
+  height: 100vh;
+  width: 100vw;
+  background-color: #faf9f6;
+  background-image: url("/assets/brushed.png");
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.project-container {
+  margin-top: 4rem;
+  width: 90%;
+  height: 85%;
+  padding: 7rem;
+}
+
+.project-name {
+  margin-top: -3rem;
+  font-size: 3rem;
+  color: #242038;
+}
+
+.project-card {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  width: 75vw;
+}
+
+.project-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-image-illustration {
+  width: 74%;
+  margin-left: 2rem;
+}
+
+.card-text-container {
+  margin-top: 1rem;
+}
+
+.card-title {
+  color: #51307e;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #242038;
+  margin-top: 0.1rem;
+  line-height: normal;
+}
+
+.card-button {
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border: none;
+  font-size: 1rem;
+  background-color: #51307e;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+}
+
+.card-button:active {
+  background-color: #c4aee0;
+}
+
+.pagination-container {
+  margin-top: 3rem;
+}
+
+.swiper-pagination {
+  z-index: 2;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #51307e !important;
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    padding: 2rem;
+  }
+
+  .project-container {
+    margin-top: 6rem;
+    padding: 2rem;
+  }
+
+  .project-name {
+    margin-left: -2rem;
+    font-size: 1.7rem;
+    color: #242038;
+  }
+  .project-card {
+    margin-top: 2rem;
+    margin-left: -2.5rem;
+  }
+
+  .pagination-container {
+    position: relative;
+    margin-left: -4.5rem !important;
+  }
+  .swipe-container {
+    width: 100vw;
+  }
+}

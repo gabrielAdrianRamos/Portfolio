@@ -1,0 +1,71 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -9999;
+}
+
+.intro {
+  font-size: 2.25rem;
+  color: #9067c6;
+  line-height: 2;
+}
+
+.name {
+  background-color: #f7ece1;
+  font-size: 3rem;
+  color: #242038;
+  padding: 0 1rem;
+  width: 34rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #9067c6;
+  line-height: 2;
+}
+
+.download {
+  width: 13.5%;
+}
+
+.btn {
+  background-color: #51307e;
+  border: 1px solid #51307e;
+  border-radius: 10px;
+  color: #f3eff9;
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  width: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: 1.7rem;
+    padding: 0 0.2rem;
+    width: 18.9rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .download {
+    width: 35%;
+  }
+
+  .btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+}
