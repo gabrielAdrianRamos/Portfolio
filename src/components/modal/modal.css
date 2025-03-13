@@ -1,0 +1,35 @@
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 700px;
+  height: 500px;
+  background-color: #fbfcf8;
+  border-radius: 10px;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close {
+  padding: 10px;
+  float: right;
+}
+
+.button {
+  background: transparent;
+  border: none;
+  font-size: 3rem;
+}
