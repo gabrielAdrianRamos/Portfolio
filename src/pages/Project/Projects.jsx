@@ -4,8 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import { useState } from "react";
+import Modal from "../../components/modal/Modal";
 
 export const Projects = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
   const adjustCard = () => {
     let slidePerView;
     let betweenSpace;
@@ -114,11 +118,23 @@ export const Projects = () => {
                     My collections of 2d illustrations.
                   </p>
                   <a href="">
-                    <button className="card-button">View</button>
+                    <button
+                      className="card-button"
+                      onClick={() => {
+                        setModalOpen(true);
+                      }}
+                    >
+                      View
+                    </button>
                   </a>
                 </div>
               </Card>
             </SwiperSlide>
+            {modalOpen && (
+              <Modal onClose={() => setModalOpen(false)}>
+                <h1>Hello</h1>
+              </Modal>
+            )}
             <div className="pagination-container">
               <div className="swiper-pagination"></div>
             </div>
