@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import { useState } from "react";
 import Modal from "../../components/modal/Modal";
+import ImageContainer from "./ImageContainer";
 
 export const Projects = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -120,7 +121,8 @@ export const Projects = () => {
                   <a href="">
                     <button
                       className="card-button"
-                      onClick={() => {
+                      onClick={(e) => {
+                        e.preventDefault();
                         setModalOpen(true);
                       }}
                     >
@@ -130,15 +132,16 @@ export const Projects = () => {
                 </div>
               </Card>
             </SwiperSlide>
-            {modalOpen && (
-              <Modal onClose={() => setModalOpen(false)}>
-                <h1>Hello</h1>
-              </Modal>
-            )}
+
             <div className="pagination-container">
               <div className="swiper-pagination"></div>
             </div>
           </Swiper>
+          {modalOpen && (
+            <Modal onClose={() => setModalOpen(false)}>
+              <ImageContainer />
+            </Modal>
+          )}
         </div>
       </div>
     </div>

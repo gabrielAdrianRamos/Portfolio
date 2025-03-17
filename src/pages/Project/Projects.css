@@ -88,6 +88,12 @@
   background-color: #51307e !important;
 }
 
+.modal-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 @media screen and (max-width: 768px) {
   .project {
     padding: 2rem;
