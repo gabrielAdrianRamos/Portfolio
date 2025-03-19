@@ -92,7 +92,22 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+}
+
+.main-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image {
+  height: 35%;
+  width: 35%;
+  object-fit: cover;
+}
+
+.thumb-image {
+  width: 25%;
 }
 @media screen and (max-width: 768px) {
   .project {

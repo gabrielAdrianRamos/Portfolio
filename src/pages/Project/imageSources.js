@@ -40,3 +40,5 @@ const imageSources = [
     imgSource: require("/assets/turtle1.png"),
   },
 ];
+
+export default imageSources;

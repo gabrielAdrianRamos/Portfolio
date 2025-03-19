@@ -13,21 +13,21 @@
 
 .modal {
   background-color: white;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 20px;
+  border-radius: 10px;
   position: relative;
-  width: 80%;
-  max-width: 500px;
+  height: 90vh;
+  width: 75vw;
   z-index: 1000;
 }
 
 .close-button {
   position: absolute;
-  top: 0.625rem;
-  right: 0.7rem;
+  top: 1rem;
+  right: 2rem;
   background: transparent;
   border: none;
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
   z-index: 1000;
 }
