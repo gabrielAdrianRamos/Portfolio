@@ -12,11 +12,11 @@
 }
 
 .modal {
-  background-color: white;
-  padding: 20px;
+  background-color: #fffafa;
+  padding: 5rem;
   border-radius: 10px;
   position: relative;
-  height: 90vh;
+  height: 98vh;
   width: 75vw;
   z-index: 1000;
 }

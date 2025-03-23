@@ -94,20 +94,28 @@
   margin-right: auto;
 }
 
-.main-image-container {
+.main-img-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.main-img-modal {
+  text-align: center;
+}
+
 .main-image {
-  height: 35%;
-  width: 35%;
+  height: 32%;
+  width: 32%;
   object-fit: cover;
 }
 
+.thumb-img {
+  margin: 1rem 0;
+}
+
 .thumb-image {
-  width: 25%;
+  width: 30%;
 }
 @media screen and (max-width: 768px) {
   .project {
