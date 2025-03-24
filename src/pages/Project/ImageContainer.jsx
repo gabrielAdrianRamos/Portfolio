@@ -9,12 +9,29 @@ import { FreeMode, Thumbs } from "swiper/modules";
 function ImageContainer() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
+  const adjustMainImage = () => {
+    let slidePerView;
+    let betweenSpace;
+
+    if (window.innerWidth < 768) {
+      slidePerView = 4;
+      betweenSpace = 10;
+    } else {
+      slidePerView = 9;
+      betweenSpace = 1;
+    }
+
+    return [slidePerView, betweenSpace];
+  };
+
+  const [perView, space] = adjustMainImage();
+
   return (
     <div className="modal-img-conatiner">
       <div className="main-img-modal">
         <Swiper
           loop={true}
-          spaceBetween={1}
+          spaceBetween={space}
           navigation={true}
           thumbs={{ swiper: thumbsSwiper }}
           modules={[FreeMode, Thumbs]}
@@ -56,8 +73,8 @@ function ImageContainer() {
         <Swiper
           onSwiper={setThumbsSwiper}
           loop={true}
-          spaceBetween={1}
-          slidesPerView={6}
+          spaceBetween={space}
+          slidesPerView={perView}
           freeMode={true}
           watchSlidesProgress={true}
           modules={[FreeMode, Thumbs]}

@@ -7,6 +7,7 @@ import { Pagination } from "swiper/modules";
 import { useState } from "react";
 import Modal from "../../components/modal/Modal";
 import ImageContainer from "./ImageContainer";
+import { motion } from "framer-motion";
 
 export const Projects = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -30,7 +31,18 @@ export const Projects = () => {
   return (
     <div className="project">
       <div className="project-container">
-        <h1 className="project-name">Projects</h1>
+        <motion.h1
+          className="project-name"
+          initial={{ opacity: 0, y: -15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            ease: "easeOut",
+            delay: 0.3,
+            duration: 0.4,
+          }}
+        >
+          Projects
+        </motion.h1>
         <div className="project-card">
           <Swiper
             slidesPerView={perView}

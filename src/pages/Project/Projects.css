@@ -88,12 +88,6 @@
   background-color: #51307e !important;
 }
 
-.modal-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .main-img-container {
   display: flex;
   justify-content: center;
@@ -115,7 +109,7 @@
 }
 
 .thumb-image {
-  width: 30%;
+  width: 40%;
 }
 @media screen and (max-width: 768px) {
   .project {
@@ -143,5 +137,19 @@
   }
   .swipe-container {
     width: 100vw;
+  }
+
+  .main-image {
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+  }
+
+  .thumb-image {
+    width: 100%;
+  }
+
+  .thumb-img {
+    margin: auto;
   }
 }
