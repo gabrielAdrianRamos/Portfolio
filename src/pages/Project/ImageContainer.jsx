@@ -36,36 +36,73 @@ function ImageContainer() {
           thumbs={{ swiper: thumbsSwiper }}
           modules={[FreeMode, Thumbs]}
           centeredSlides={true}
+          lazy={true}
         >
           <SwiperSlide>
-            <img src="/assets/beachboy2.png" className="main-image" />
+            <img
+              src="/assets/beachboy2.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/404.png" className="main-image" />
+            <img src="/assets/404.png" className="main-image" loading="lazy" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/clown.png" className="main-image" />
+            <img
+              src="/assets/clown.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/dragon.png" className="main-image" />
+            <img
+              src="/assets/dragon.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/dragon6.png" className="main-image" />
+            <img
+              src="/assets/dragon6.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/gorilla.png" className="main-image" />
+            <img
+              src="/assets/gorilla.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/lazyday.png" className="main-image" />
+            <img
+              src="/assets/lazyday.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/logo3.png" className="main-image" />
+            <img
+              src="/assets/logo3.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/space.png" className="main-image" />
+            <img
+              src="/assets/space.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/turtle1.png" className="main-image" />
+            <img
+              src="/assets/turtle1.png"
+              className="main-image"
+              loading="lazy"
+            />
           </SwiperSlide>
         </Swiper>
       </div>
@@ -78,36 +115,73 @@ function ImageContainer() {
           freeMode={true}
           watchSlidesProgress={true}
           modules={[FreeMode, Thumbs]}
+          lazy={true}
         >
           <SwiperSlide>
-            <img src="/assets/beachboy2.png" className="thumb-image" />
+            <img
+              src="/assets/beachboy2.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/404.png" className="thumb-image" />
+            <img src="/assets/404.png" className="thumb-image" loading="lazy" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/clown.png" className="thumb-image" />
+            <img
+              src="/assets/clown.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/dragon.png" className="thumb-image" />
+            <img
+              src="/assets/dragon.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/dragon6.png" className="thumb-image" />
+            <img
+              src="/assets/dragon6.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/gorilla.png" className="thumb-image" />
+            <img
+              src="/assets/gorilla.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/lazyday.png" className="thumb-image" />
+            <img
+              src="/assets/lazyday.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/logo3.png" className="thumb-image" />
+            <img
+              src="/assets/logo3.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/space.png" className="thumb-image" />
+            <img
+              src="/assets/space.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="/assets/turtle1.png" className="thumb-image" />
+            <img
+              src="/assets/turtle1.png"
+              className="thumb-image"
+              loading="lazy"
+            />
           </SwiperSlide>
         </Swiper>
       </div>
