@@ -88,6 +88,14 @@
   background-color: #51307e !important;
 }
 
+.swiper-button-prev {
+  color: #51307e !important;
+}
+
+.swiper-button-next {
+  color: #51307e !important;
+}
+
 .main-img-container {
   display: flex;
   justify-content: center;
@@ -95,7 +103,11 @@
 }
 
 .main-img-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin-top: 4rem;
 }
 
 .main-image {
@@ -104,13 +116,6 @@
   object-fit: cover;
 }
 
-.thumb-img {
-  margin: 1rem 0;
-}
-
-.thumb-image {
-  width: 40%;
-}
 @media screen and (max-width: 768px) {
   .project {
     padding: 2rem;
@@ -148,13 +153,5 @@
     height: 95%;
     width: 95%;
     object-fit: cover;
-  }
-
-  .thumb-image {
-    width: 100%;
-  }
-
-  .thumb-img {
-    margin-top: -1rem;
   }
 }

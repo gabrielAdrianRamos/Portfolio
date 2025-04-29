@@ -64,6 +64,9 @@ nav {
   color: #c4aee0;
 }
 
+.home-link {
+  display: none;
+}
 @media screen and (max-width: 800px) {
   nav {
     display: block;
@@ -105,5 +108,8 @@ nav {
     > * {
       margin-left: 2rem;
     }
+  }
+  .home-link {
+    display: block;
   }
 }

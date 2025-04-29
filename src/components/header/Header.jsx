@@ -24,6 +24,9 @@ export const Header = () => {
         </div>
         <nav className={showMenu ? "show-nav" : "hide-nav"}>
           <ul onClick={hideMenu}>
+            <li className="home-link">
+              <NavLink to={"/"}>Home</NavLink>
+            </li>
             <li>
               <NavLink to={"/about"}>About</NavLink>
             </li>
