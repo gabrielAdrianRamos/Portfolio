@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { GoogleAnalytics } from "./components/GoogleAnalytics";
 import { Header } from "./components/header/Header";
 import { Home } from "./pages/Home/Home";
 import { About } from "./pages/About/About";
@@ -8,6 +9,7 @@ import { Contact } from "./pages/Contact/Contact";
 function App() {
   return (
     <>
+      <GoogleAnalytics />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
