@@ -64,7 +64,7 @@ const Experience = () => {
         A Web Developer
       </motion.p>
       <div className="download">
-        <a href="/assets/AdrianGabrielRamos_CV.pdf" download="AdrianGabrielRamos_CV">
+        <a href="/assets/Adrian_Gabriel_Ramos_Resume.pdf" download="Adrian_Gabriel_Ramos_Resume">
           <motion.button
             className="btn"
             initial={{ y: 100, opacity: 0 }}
