@@ -55,94 +55,134 @@ export const Projects = () => {
             className="swipe-container"
           >
             <SwiperSlide>
-              <Card>
-                <div className="card-image-container">
-                  <img
-                    src="\assets\playground.png"
-                    alt="title"
-                    className="card-image"
-                  />
-                </div>
-                <div className="card-text-container">
-                  <p className="card-title">Toby's Playground</p>
-                  <p className="description">
-                    Toby's Playground is a fun and interactive web app designed
-                    for toddlers.
-                  </p>
-                  <a href="https://playground-toby.vercel.app/">
-                    <button className="card-button">View</button>
-                  </a>
-                </div>
-              </Card>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  ease: "easeOut",
+                  delay: 0.4,
+                  duration: 0.5,
+                }}
+              >
+                <Card>
+                  <div className="card-image-container">
+                    <img
+                      src="\assets\playground.png"
+                      alt="title"
+                      className="card-image"
+                    />
+                  </div>
+                  <div className="card-text-container">
+                    <p className="card-title">Toby's Playground</p>
+                    <p className="description">
+                      Toby's Playground is a fun and interactive web app designed
+                      for toddlers.
+                    </p>
+                    <a href="https://playground-toby.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <button className="card-button">View</button>
+                    </a>
+                  </div>
+                </Card>
+              </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <Card>
-                <div className="card-image-container">
-                  <img
-                    src="\assets\cloudAdventures.png"
-                    alt="title"
-                    className="card-image"
-                  />
-                </div>
-                <div className="card-text-container">
-                  <p className="card-title">Cloud Adventures</p>
-                  <p className="description">
-                    Cloud Adventures is a simple 3D dodging game for Desktop
-                    with an orthographic camera.
-                  </p>
-                  <a href="https://cloud-adventures.vercel.app/">
-                    <button className="card-button">View</button>
-                  </a>
-                </div>
-              </Card>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  ease: "easeOut",
+                  delay: 0.55,
+                  duration: 0.5,
+                }}
+              >
+                <Card>
+                  <div className="card-image-container">
+                    <img
+                      src="\assets\cloudAdventures.png"
+                      alt="title"
+                      className="card-image"
+                    />
+                  </div>
+                  <div className="card-text-container">
+                    <p className="card-title">Cloud Adventures</p>
+                    <p className="description">
+                      Cloud Adventures is a simple 3D dodging game for Desktop
+                      with an orthographic camera.
+                    </p>
+                    <a href="https://cloud-adventures.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <button className="card-button">View</button>
+                    </a>
+                  </div>
+                </Card>
+              </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <Card>
-                <div className="card-image-container">
-                  <img
-                    src="\assets\housetop.png"
-                    alt="title"
-                    className="card-image"
-                  />
-                </div>
-                <div className="card-text-container">
-                  <p className="card-title">Housetop Samgyupsal</p>
-                  <p className="description">
-                    A Simple website I created for a client.
-                  </p>
-                  <a href="https://housetop-samgyupsal.vercel.app/">
-                    <button className="card-button">View</button>
-                  </a>
-                </div>
-              </Card>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  ease: "easeOut",
+                  delay: 0.7,
+                  duration: 0.5,
+                }}
+              >
+                <Card>
+                  <div className="card-image-container">
+                    <img
+                      src="\assets\housetop.png"
+                      alt="title"
+                      className="card-image"
+                    />
+                  </div>
+                  <div className="card-text-container">
+                    <p className="card-title">Housetop Samgyupsal</p>
+                    <p className="description">
+                      A Simple website I created for a client.
+                    </p>
+                    <a href="https://housetop-samgyupsal.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <button className="card-button">View</button>
+                    </a>
+                  </div>
+                </Card>
+              </motion.div>
             </SwiperSlide>
             <SwiperSlide>
-              <Card>
-                <div className="card-image-container">
-                  <img
-                    src="\assets\logo3.png"
-                    alt="title"
-                    className="card-image-illustration"
-                  />
-                </div>
-                <div className="card-text-container">
-                  <p className="card-title">Illustrations</p>
-                  <p className="description">
-                    My collections of 2d illustrations.
-                  </p>
-                  <a href="">
-                    <button
-                      className="card-button"
-                      onClick={(e) => {
-                        e.preventDefault();
-                        setModalOpen(true);
-                      }}
-                    >
-                      View
-                    </button>
-                  </a>
-                </div>
-              </Card>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  ease: "easeOut",
+                  delay: 0.85,
+                  duration: 0.5,
+                }}
+              >
+                <Card>
+                  <div className="card-image-container">
+                    <img
+                      src="\assets\logo3.png"
+                      alt="title"
+                      className="card-image-illustration"
+                    />
+                  </div>
+                  <div className="card-text-container">
+                    <p className="card-title">Illustrations</p>
+                    <p className="description">
+                      My collections of 2d illustrations.
+                    </p>
+                    <a href="">
+                      <button
+                        className="card-button"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setModalOpen(true);
+                        }}
+                      >
+                        View
+                      </button>
+                    </a>
+                  </div>
+                </Card>
+              </motion.div>
             </SwiperSlide>
 
             <div className="pagination-container">

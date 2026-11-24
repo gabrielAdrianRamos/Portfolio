@@ -13,11 +13,13 @@
 
 .modal {
   background-color: #fbfbf9;
-  padding: 5rem;
+  padding: 2.5rem 2rem 3rem;
   border-radius: 10px;
   position: relative;
-  height: 98vh;
-  width: 75vw;
+  height: auto;
+  max-height: 85vh;
+  width: auto;
+  max-width: 50vw;
   z-index: 1000;
 }
 
@@ -34,9 +36,11 @@
 
 @media screen and (max-width: 768px) {
   .modal {
-    height: 80vh;
-    width: 85vw;
-    padding: 2rem;
+    height: auto;
+    max-height: 85vh;
+    width: 90vw;
+    max-width: 90vw;
+    padding: 2rem 1rem 2.5rem;
   }
 
   .close-button {
