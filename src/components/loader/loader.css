@@ -3,10 +3,18 @@ body {
 }
 
 .loader-container {
-  margin-top: 20rem;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #000000;
+  pointer-events: all;
+}
+
+.loader-container--exiting {
+  pointer-events: none;
 }
 
 .spinner {
@@ -65,5 +73,89 @@ body {
 
   100% {
     transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+  }
+}
+
+/* Disassemble exit — faces fly outward along their axes */
+.spinner.disassemble {
+  animation: none;
+  transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+}
+
+.spinner.disassemble > div {
+  animation-duration: 0.65s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.spinner.disassemble div:nth-of-type(1) {
+  animation-name: face-out-1;
+  animation-delay: 0.05s;
+}
+
+.spinner.disassemble div:nth-of-type(2) {
+  animation-name: face-out-2;
+  animation-delay: 0.1s;
+}
+
+.spinner.disassemble div:nth-of-type(3) {
+  animation-name: face-out-3;
+  animation-delay: 0.15s;
+}
+
+.spinner.disassemble div:nth-of-type(4) {
+  animation-name: face-out-4;
+  animation-delay: 0.2s;
+}
+
+.spinner.disassemble div:nth-of-type(5) {
+  animation-name: face-out-5;
+  animation-delay: 0.25s;
+}
+
+.spinner.disassemble div:nth-of-type(6) {
+  animation-name: face-out-6;
+  animation-delay: 0.3s;
+}
+
+@keyframes face-out-1 {
+  to {
+    transform: translateZ(-90px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes face-out-2 {
+  to {
+    transform: rotateY(-270deg) translateX(140%);
+    opacity: 0;
+  }
+}
+
+@keyframes face-out-3 {
+  to {
+    transform: rotateY(270deg) translateX(-140%);
+    opacity: 0;
+  }
+}
+
+@keyframes face-out-4 {
+  to {
+    transform: rotateX(90deg) translateY(-140%);
+    opacity: 0;
+  }
+}
+
+@keyframes face-out-5 {
+  to {
+    transform: rotateX(-90deg) translateY(140%);
+    opacity: 0;
+  }
+}
+
+@keyframes face-out-6 {
+  to {
+    transform: translateZ(90px);
+    opacity: 0;
   }
 }
