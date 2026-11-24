@@ -127,28 +127,30 @@ body {
 
 @keyframes face-out-2 {
   to {
-    transform: rotateY(-270deg) translateX(140%);
+    /* right face — push out along its normal + slight tumble */
+    transform: rotateY(-270deg) translateX(50%) translateZ(90px) rotateZ(25deg);
     opacity: 0;
   }
 }
 
 @keyframes face-out-3 {
   to {
-    transform: rotateY(270deg) translateX(-140%);
+    /* left face */
+    transform: rotateY(270deg) translateX(-50%) translateZ(90px) rotateZ(-25deg);
     opacity: 0;
   }
 }
 
 @keyframes face-out-4 {
   to {
-    transform: rotateX(90deg) translateY(-140%);
+    transform: rotateX(90deg) translateY(-50%) translateZ(90px);
     opacity: 0;
   }
 }
 
 @keyframes face-out-5 {
   to {
-    transform: rotateX(-90deg) translateY(140%);
+    transform: rotateX(-90deg) translateY(50%) translateZ(90px);
     opacity: 0;
   }
 }
